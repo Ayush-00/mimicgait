@@ -1,4 +1,4 @@
-# README
+# MimicGait: A Model Agnostic approach for Occluded Gait Recognition using Correlational Knowledge Distillation
 
 
 For more details, and our paper, visit the [project website](https://ayush-00.github.io/mimicgait-website/).
