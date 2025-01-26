@@ -3,6 +3,10 @@
 
 For more details, and our paper, visit the [project website](https://ayush-00.github.io/mimicgait-website/).
 
+
+![Main Image](images/Main_cropped.png)
+
+
 Our code is based on the OpenGait repository: [https://github.com/ShiqiYu/OpenGait](https://github.com/ShiqiYu/OpenGait). Please refer to the repository's instructions on how to setup the environment and run the code. The same procedure for pretreatment of the dataset is followed as described in the OpenGait repository.
 
 We have created separate classes for different backbones, with and without mimic guidance, as described in the config files under `configs/gaitbase/` and `configs/gaitgl/`. This directory contains the code to reproduce our experiments on the GREW dataset.
