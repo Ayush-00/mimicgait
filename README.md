@@ -28,6 +28,7 @@ To run the mimic network guided by a VEN, the path to the external VEN needs to 
 
 The code to train and evaluate the VEN is in `occlusion_detector/`. Run `python train.py --dataset grew` and specify the (preprocessed) dataset path in train.py to train the VEN. The code supports the wandb library to log results, which can be enabled using the --wandb argument.  The models are saved in a new directory called `saves/` at every epoch of training. These saved models can be used to guide the mimic network by specifying their path in the config file for mimic network training. 
 
+We have provided the VEN pretrained weights, for the model trained on GREW dataset, in the repository as best-model.pth.
 
 ## Citation
 
